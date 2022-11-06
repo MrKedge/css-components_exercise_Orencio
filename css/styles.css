@@ -30,6 +30,7 @@ p {
   border-radius: 0.7rem;
   box-shadow: 0.3rem 0.3rem 1.5rem rgba(0, 0, 0, 0.15);
   max-width: 32rem;
+  margin: auto 10px;
 }
 
 .box {
@@ -67,4 +68,57 @@ button {
     flex-direction: column;
     max-width: 90vw;
   }
+}
+.card__box--flame , .card-horizontal--flame, .card__btn--flame{
+  background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
+
+}
+
+.card__box--ice , .card-horizontal--ice , .card__btn--ice{
+  background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+}
+
+.card__box--wind , .card-horizontal--wind , .card__btn--wind {
+  background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+}
+
+.card__title {
+  text-align: center;
+}
+
+.card__btn {
+  
+margin: 0 auto 10px;
+width: 27%;
+padding: 5px;
+font-weight: bold;
+color:#fff;
+}
+
+p {
+  font-size: 13px;
+  color:#fff;
+}
+
+h1 {
+  font-size: 30px;
+  color: #c30052;
+}
+
+h2 {
+  font-size: 25px;
+  color: #333;
+}
+
+h3 {
+  font-size: 15px;
+  color:#fff;
+}
+.card-horizontal__title{
+  padding: 0 16px;
+}
+.card-horizontal__text{
+  padding: 0 16px 2rem ;
+  width: 80%;
+  
 }
